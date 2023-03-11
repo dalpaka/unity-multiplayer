@@ -15,6 +15,10 @@ using TMPro;
 
 public class FirstPersonController : NetworkBehaviour
 {
+    <summary>
+    //NIGGHDFDFHJAGFGH
+    </summary>
+    
     [SerializeField] public float moveSpeed = 5f;
     [SerializeField] public float jumpHeight = 2f;
     [SerializeField] public float mouseSensitivity = 100f;
