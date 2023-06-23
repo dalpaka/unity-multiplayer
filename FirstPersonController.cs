@@ -15,9 +15,9 @@ using TMPro;
 
 public class FirstPersonController : NetworkBehaviour
 {
-    <summary>
+    //<summary>
     //NIGGHDFDFHJAGFGH
-    </summary>
+    //</summary>
     
     [SerializeField] public float moveSpeed = 5f;
     [SerializeField] public float jumpHeight = 2f;
