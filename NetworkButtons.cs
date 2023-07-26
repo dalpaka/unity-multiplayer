@@ -19,11 +19,11 @@ public class NetworkButtons : MonoBehaviour
         GUILayout.EndArea();
     }
 
-    // private void Awake() {
-    //     GetComponent<UnityTransport>().SetDebugSimulatorParameters(
-    //         packetDelay: 120,
-    //         packetJitter: 5,
-    //         dropRate: 3);
-    // }
+    private void Awake() {
+         GetComponent<UnityTransport>().SetDebugSimulatorParameters(
+         packetDelay: 120,
+         packetJitter: 5,
+         dropRate: 3);
+   }
 }
 
