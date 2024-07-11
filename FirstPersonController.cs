@@ -14,23 +14,15 @@ using TMPro;
 
 
 public class FirstPersonController : NetworkBehaviour
-{
-    //<summary>
-    //NIGGHDFDFHJAGFGH
-    //</summary>
-    
+{   
     [SerializeField] public float moveSpeed = 5f;
     [SerializeField] public float jumpHeight = 2f;
     [SerializeField] public float mouseSensitivity = 100f;
-
     private CharacterController controller;
     private Transform cameraTransform;
-
     private float verticalRotation = 0f;
     private float verticalVelocity = 0f;
-
     public Animator anim;
-
     public TMP_Text fpsText;
     public float deltaTime;
 
