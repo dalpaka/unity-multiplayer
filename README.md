@@ -1,4 +1,3 @@
-# x-men
+# Awesome unity multiplayer fps scripts
 simple unity fps scripts:)
-
-::dalpaka::
+https://ko-fi.com/sdxdude
